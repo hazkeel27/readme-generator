@@ -5,63 +5,55 @@ const genMrkDwn = require('./utils/generateMarkdown.js');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    // {
-    //     type:'input',
-    //     message:'What is your project's name? ',
-    //     name:'title',
-    // },
-    // {
-    //     type:'input',
-    //     message:'Please write a short description of your project. ',
-    //     name:'description',
-    // },
-    // {
-    //     type:'input',
-    //     message:'What command should be run to install dependencies? ',
-    //     name:'installation',
-    // },
-    // {
-    //     type:'input',
-    //     message:'What does the user need to know about using the repo? ',
-    //     name:'usage',
-    // },
-    // {
-    //     type:'input',
-    //     message:'What does the user need to know about contributing to the repo? ',
-    //     name:'contribution',
-    // },
-    // {
-    //     type:'input',
-    //     message:'What command should be run to run tests? ',
-    //     name:'test',
-    // },
-    // {
-    //     type:'list',
-    //     message:'What kind of license should your project have? ',
-    //     name:'license',
-    //     choices: [
-    //         'MIT License',
-    //         'Apache License 2.0',
-    //         'GNU General Public License (GPL) 3.0',
-    //         'GNU Lesser General Public License (LGPL) 3.0',
-    //         'BSD 2-Clause "Simplified" License',
-    //         'BSD 3-Clause "New" or "Revised" License',
-    //         'Mozilla Public License (MPL) 2.0',
-    //         'Creative Commons Zero v1.0 Universal (CC0 1.0)',
-    //         'The Unlicense',
-    //         'GNU Affero General Public License (AGPL) 3.0',
-    //         'Eclipse Public License 2.0',
-    //         'GNU General Public License (GPL) 2.0',
-    //         'Apache License 1.1',
-    //         'Artistic License 2.0',
-    //         'Microsoft Public License (MS-PL)'
-    //       ],
-    // },
-    // {
-    //     type:'input',
-    //     message:'What is your GitHub username? ',
-    //     name:'github',
-    // },
+    {
+        type:'input',
+        message:`What is your project's name? `,
+        name:'title',
+    },
+    {
+        type:'input',
+        message:'Please write a short description of your project. ',
+        name:'description',
+    },
+    {
+        type:'input',
+        message:'What command should be run to install dependencies? ',
+        name:'installation',
+    },
+    {
+        type:'input',
+        message:'What does the user need to know about using the repo? ',
+        name:'usage',
+    },
+    {
+        type:'input',
+        message:'What does the user need to know about contributing to the repo? ',
+        name:'contribution',
+    },
+    {
+        type:'input',
+        message:'What command should be run to run tests? ',
+        name:'test',
+    },
+    {
+        type:'list',
+        message:'What kind of license should your project have? ',
+        name:'license',
+        choices: [
+            'The MIT License',
+            'Apache 2.0 License',
+            'GNU GPL v3',
+            'BSD 3-Clause License',
+            'Eclipse Public License 1.0',
+            'Mozilla Public License 2.0',
+            'The Unlicense',   
+          ],
+    },
+    {
+        type:'input',
+        message:'What is your GitHub username? ',
+        name:'github',
+    },
     {
         type:'input',
         message:'What is your email address? ',
@@ -70,17 +62,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(
+        fileName,
+        genMrkDwn.generateMarkdown(data),
+        (error) => error ? console.log(error) : console.log('Generating README...')
+    );
+}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
         const fileName = `README.md`;
-
-        
-
-
-        console.log(data.email);
+        writeToFile(fileName, data);
     });
 }
 
