@@ -17,7 +17,7 @@ Introducing the README File Generator - a command-line tool that automates the c
 
 ## <a name="installation"></a>Installation 🚀
 
-To install necessary dependencies, run the following command:
+To install the necessary dependencies, run the following command:
 
 ```
 npm i
@@ -33,13 +33,13 @@ The following is a video demo running the application and generating a sample re
 
 ![Video Demo](https://drive.google.com/file/d/1lMrYt3tQuFAqFuFljWdy3Gsp9N0yXggT/view?usp=sharing)
 
-The following is the screenshot of the terminal with a questions and their answer for the sample readme file. 📷
+The following is the screenshot of the terminal with questions and their answer for the sample readme file. 📷
 
 ![Demo Screenshot](demo-readme-file/demo-readme-terminal-screenshot.png)
 
 ## <a name="contributing"></a>Contribution 🤝
 
-This application asks user a series of questions and then inserts the answers within the generated readme file. However it does not check for invalid inputs and it does not give the user option to choose the contents of the readme file. Contributers can help in resolving this issue.
+This application asks the user a series of questions and then inserts the answers within the generated readme file. However, it does not check for invalid inputs and it does not give the user option to choose the contents of the readme file. Contributors can help in resolving this issue.
 
 ## <a name="tests"></a>Tests 🧪
 
