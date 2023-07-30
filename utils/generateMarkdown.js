@@ -50,7 +50,7 @@ function renderLicenseSection(license) {
     const licenseDescription = `This project is licensed under ${license}. Here is the link to the license to access more information for your reference: `;
 
     if (license) {
-        return [`\n* [License](#license)` ,`\n\n## License\n\n${licenseDescription}`] 
+        return [`\n* [License](#license)` ,`\n\n## <a name="license"></a>License\n\n${licenseDescription}`] 
     }
     else {
         return ['', ''];
@@ -75,27 +75,27 @@ ${data.description}
 * [Tests](#tests)${licenseSection[0]}
 * [Questions](#questions)
 
-## Installation
+## <a name="installation"></a>Installation
 
 To install necessary dependencies, run the following command:
 
 ${data.installation}
 
-## Usage
+## <a name="usage"></a>Usage
 
 ${data.usage}
 
-## Contribution
+## <a name="contributing"></a>Contribution
 
 ${data.contribution}
 
-## Tests
+## <a name="tests"></a>Tests
 
 To run tests, run the following command:
 
 ${data.test}${licenseSection[1]}${renderLicenseLink(data.license)}
 
-## Questions
+## <a name="questions"></a>Questions
 
 If you have further questions, you are welcome to reach me through my email at ${data.email}.
 
