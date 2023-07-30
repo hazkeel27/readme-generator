@@ -3,19 +3,19 @@
 function renderLicenseBadge(license) {
     switch(license) {
         case 'The MIT License':
-            return '\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]';
+            return '\n![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)';
         case 'Apache 2.0 License':
-            return '\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]';
+            return '\n![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
         case 'GNU GPL v3':
-            return '\n[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]';
+            return '\n![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)';
         case 'BSD 3-Clause License':
-            return '\n[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]';
+            return '\n![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)';
         case 'Eclipse Public License 1.0':
-            return '\n[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)]';
+            return '\n![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)';
         case 'Mozilla Public License 2.0':
-            return '\n[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]';
+            return '\n![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)';
         case 'The Unlicense':
-            return '\n[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]';
+            return '\n![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)';
         default:
             return '';
     }
