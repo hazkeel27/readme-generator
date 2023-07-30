@@ -33,9 +33,10 @@ The following is a video demo running the application and generating a sample re
 
 [![Video Demo](https://img.youtube.com/vi/ruoO-bGWjFw/0.jpg)](https://www.youtube.com/watch?v=ruoO-bGWjFw)
 
-The following is the screenshot of the terminal with questions and their answer for the sample readme file. 📷
+The following is the screenshot of the terminal with questions and their answer for the sample readme file as well as the generated sample readme file. 📷
 
 ![Demo Screenshot](demo-readme-file/demo-readme-terminal-screenshot.png)
+![Demo Screenshot](demo-readme-file/demo-readme-screenshot.png)
 
 ## <a name="contributing"></a>Contribution 🤝
 

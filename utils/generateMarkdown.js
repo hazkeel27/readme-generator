@@ -60,8 +60,7 @@ function renderLicenseSection(license) {
 // Function to generate markdown for README
 function generateMarkdown(data) {
     const licenseSection = renderLicenseSection(data.license);
- return `
-# ${data.title}${renderLicenseBadge(data.license)}
+ return `# ${data.title}${renderLicenseBadge(data.license)}
 
 ## Description
 
