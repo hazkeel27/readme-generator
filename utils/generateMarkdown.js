@@ -77,6 +77,8 @@ ${data.description}
 
 ## Installation
 
+To install necessary dependencies, run the following command:
+
 ${data.installation}
 
 ## Usage
@@ -89,13 +91,15 @@ ${data.contribution}
 
 ## Tests
 
+To run tests, run the following command:
+
 ${data.test}${licenseSection[1]}${renderLicenseLink(data.license)}
 
 ## Questions
 
 If you have further questions, you are welcome to reach me through my email at ${data.email}.
 
-You can view my projects by going through my GitHub profile at ${data.github}.
+You can view my projects by going through my GitHub profile at https://github.com/${data.github.trim()}.
 `;
 }
 
