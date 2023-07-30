@@ -31,7 +31,7 @@ npm install inquirer@8.2.4
 
 The following is a video demo running the application and generating a sample readme file. 🎥
 
-![Video Demo](https://youtu.be/ruoO-bGWjFw)
+[![Video Demo](https://img.youtube.com/vi/ruoO-bGWjFw/0.jpg)](https://www.youtube.com/watch?v=ruoO-bGWjFw)
 
 The following is the screenshot of the terminal with questions and their answer for the sample readme file. 📷
 
