@@ -3,7 +3,7 @@
 
 ## Description 📄
 
-Introducing the README File Generator - a command-line tool that automates the creation of clear and organized README files for your projects. Simply answer a few questions, and the generator will do the rest, saving you time and effort. Elevate your project's documentation with ease and improve collaboration among developers. Try it now and experience hassle-free README creation! 🚀
+Introducing the README File Generator - a command-line tool that automates the creation of clear and organized README files for your projects. Simply answer a few questions, and the generator will do the rest, saving you time and effort. Elevate your project's documentation with ease and improve collaboration among developers. Try it now and experience hassle-free README creation! 
 
 ## Table of Contents
 
@@ -14,8 +14,9 @@ Introducing the README File Generator - a command-line tool that automates the c
 * [License](#license) 📜
 * [Credits](#credits) 🙏
 * [Questions](#questions) ❓
+* [Deployed Application](#link) 🚀
 
-## <a name="installation"></a>Installation 🚀
+## <a name="installation"></a>Installation 🛠️
 
 To install necessary dependencies, run the following command:
 
@@ -74,3 +75,7 @@ Following are the documents I used to help me write code:
 If you have further questions, you are welcome to reach me through my email at hazkeel27@gmail.com.
 
 You can view my projects by going through my GitHub profile at https://github.com/hazkeel27.
+
+## <a name="link"></a>Deployed Application 🚀
+
+https://hazkeel27.github.io/readme-generator/
