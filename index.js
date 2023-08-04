@@ -1,4 +1,4 @@
-// Packages needed for this application
+// Packages needed for this application :)
 const inquirer = require('inquirer'); // Nodejs Inquirer Library
 const fs = require('fs'); // Nodejs library for reading and writing files
 const genMrkDwn = require('./utils/generateMarkdown.js');
