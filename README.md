@@ -32,7 +32,7 @@ npm install inquirer@8.2.4
 - Install the inquirer dependency.
 - Answer questions asked in the terminal to generate a readme file.
 
-Following is the screenshot of the terminal with questions answered by user. 📷
+Following is the screenshot of the terminal with questions answered by the user. 📷
 
 ![terminal screenshot](demo-readme-file/demo-readme-terminal-screenshot.png)
 
@@ -40,7 +40,7 @@ Following is the generated sample readme file. 📷
 
 ![sample readme screenshot](demo-readme-file/demo-readme-screenshot.png)
 
-Following is a video demonstrating the how to run the application in the terminal. 🎥
+Following is a video demonstrating how to run the application in the terminal. 🎥
 
 [![Video Demo](https://img.youtube.com/vi/ruoO-bGWjFw/0.jpg)](https://www.youtube.com/watch?v=ruoO-bGWjFw)
 
